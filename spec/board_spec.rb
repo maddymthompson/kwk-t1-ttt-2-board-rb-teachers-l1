@@ -1,11 +1,12 @@
 board = ["X", " ", " ", " ", " ", "O ", " ", " ", " "]
 
-display_board
-puts " #{board[0]}  |#{board[1]}   | #{board[2]}  "
-puts "-----------"
-puts "  #{board[3]} | #{board[4]}  | #{board[5]}  "
-puts "-----------"
-puts "  #{board[6]} | #{board[7]}  | #{board[7]}  "
+def display_board(board)
+  board = ["X", " ", " ", " ", " ", "O ", " ", " ", " "]
+  puts " #{board[0]}  |#{board[1]}  | #{board[2]}  "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]}  | #{board[5]}  "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]}  | #{board[7]}  "
+end
 
-
-board[1] = "X"
+display_board(board)
