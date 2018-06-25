@@ -1,6 +1,3 @@
-# Define the variable board below.
-# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+x = "Maddy"
 
-# board[4] = "X"
-
-# puts board
+puts "Hello X"
